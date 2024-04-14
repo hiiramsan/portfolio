@@ -574,3 +574,24 @@ footer {
     margin: 20px 0;
   }
 }
+
+
+.message-text {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message-text h1 {
+  margin: 20px;
+  color: var(--white);
+  font-family: var(--nav-font);
+}
+
+.message-text a {
+
+  color: var(--white);
+  font-family: var(--mono-font);
+}
