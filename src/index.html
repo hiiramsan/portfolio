@@ -7,16 +7,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    
+      <header>
       <p>
         <a href="https://hiiramsan.vercel.app"><span>hiiramsan</span>.dev</a>
       </p>
-      <ul>
-        <li><a href="#about-me">about me</a></li>
-        <li><a href="#my-projects">my projects</a></li>
-        <li><a href="#contact-me">contact me</a></li>
-      </ul>
-    </nav>
+      <svg class="abrir-menu" id="abrir-menu" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/"></svg>
+        <nav id="nav">
+          <svg class="cerrar-menu" id="cerrar-menu" 9xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          <ul>
+            <li><a href="#about-me" id="aboutme">about me</a></li>
+            <li><a href="#my-projects" id="myprojects">my projects</a></li>
+            <li><a href="#contact-me" id="contactme">contact me</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    
+    
+    
+
     <main>
       <div class="intro">
         <img src="./res/pic.jpeg" alt="" />
@@ -104,7 +114,7 @@
         <h1 class="title">Contact me<span>.</span></h1>
         <p>Let's meet each other!</p>
         <div class="links">
-          <a href="#">
+          <a href="#" id="mail">
             <img src="./res/gmail.svg" alt="" />
             <p>carloshiramsanchez@gmail.com</p>
           </a>
@@ -142,7 +152,7 @@
     </main>
     <footer>
       <p>@hiiramsan</p>
-      <p>"La vida es como la espuma, por eso hay que darse como el mar"</p>
+      <p id="phrase">"La vida es como la espuma, por eso hay que darse como el mar"</p>
       <p>Carlos Sánchez</p>
     </footer>
     <script src="script.js"></script>
